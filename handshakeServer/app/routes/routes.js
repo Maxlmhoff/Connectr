@@ -7,22 +7,26 @@ module.exports = function(app, db){
     app.get('/getuserbytoken/:token', (req, res) => {
 
         let token = req.params.token
-        console.log(token)
-
         const details = {'token' : token}
-        console.log(details)
+  
         db.collection('users').findOne(details, (err, result) => {
             if (err){
                 res.send({"error":"could not find user with token " + token})
             } else {
                 let networks = result.networks
-                
-                let response = {}
+                let n = {}
                 for (network in networks){
                     if (networks[network].active){
-                        response[network] = networks[network].userID
+                        n[network] = networks[network].userID
                     }
                 }   
+                
+                let response = {
+                    name: result.name,
+                    surname: result.surname,
+                    networks: n
+                }
+
                 res.send(response)
             }
         })
