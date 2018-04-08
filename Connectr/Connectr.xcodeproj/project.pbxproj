@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F4BF74B2079632D00A430AE /* Plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BF7472079632D00A430AE /* Plus.png */; };
+		7F4BF74C2079632D00A430AE /* Twitter.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BF7482079632D00A430AE /* Twitter.png */; };
+		7F4BF74D2079632D00A430AE /* Facebook.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BF7492079632D00A430AE /* Facebook.png */; };
+		7F4BF74E2079632D00A430AE /* Snapchat.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BF74A2079632D00A430AE /* Snapchat.png */; };
+		7F4BF7602079982800A430AE /* Snapchatdis.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BF75D2079982800A430AE /* Snapchatdis.png */; };
+		7F4BF7612079982800A430AE /* Twitterdis.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BF75E2079982800A430AE /* Twitterdis.png */; };
+		7F4BF7622079982800A430AE /* Facebookdis.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F4BF75F2079982800A430AE /* Facebookdis.png */; };
+		7F4BF7642079A12A00A430AE /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F4BF7632079A12A00A430AE /* SafariServices.framework */; };
+		7F8E19B62078ECFB00DFE64B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E19B52078ECFB00DFE64B /* AppDelegate.swift */; };
+		7F8E19B82078ECFB00DFE64B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8E19B72078ECFB00DFE64B /* ViewController.swift */; };
+		7F8E19BB2078ECFB00DFE64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E19B92078ECFB00DFE64B /* Main.storyboard */; };
+		7F8E19BD2078ECFC00DFE64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E19BC2078ECFC00DFE64B /* Assets.xcassets */; };
+		7F8E19C02078ECFC00DFE64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8E19BE2078ECFC00DFE64B /* LaunchScreen.storyboard */; };
+		7FB8FEAE2079C539000814D3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8FEAD2079C539000814D3 /* ProfileViewController.swift */; };
+		7FB8FEB02079CB62000814D3 /* profile_placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FB8FEAF2079CB62000814D3 /* profile_placeholder.png */; };
+		7FB8FEB22079D2B6000814D3 /* ContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8FEB12079D2B6000814D3 /* ContactViewController.swift */; };
+		966E471091426EE468FE6D4F /* Pods_Connectr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BC63095D88E81A9CD324136 /* Pods_Connectr.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		046DDC31037904B56DD9101F /* Pods-Connectr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connectr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Connectr/Pods-Connectr.debug.xcconfig"; sourceTree = "<group>"; };
+		2BC63095D88E81A9CD324136 /* Pods_Connectr.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Connectr.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4BF7472079632D00A430AE /* Plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plus.png; sourceTree = "<group>"; };
+		7F4BF7482079632D00A430AE /* Twitter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitter.png; sourceTree = "<group>"; };
+		7F4BF7492079632D00A430AE /* Facebook.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebook.png; sourceTree = "<group>"; };
+		7F4BF74A2079632D00A430AE /* Snapchat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snapchat.png; sourceTree = "<group>"; };
+		7F4BF75D2079982800A430AE /* Snapchatdis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snapchatdis.png; sourceTree = "<group>"; };
+		7F4BF75E2079982800A430AE /* Twitterdis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Twitterdis.png; sourceTree = "<group>"; };
+		7F4BF75F2079982800A430AE /* Facebookdis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Facebookdis.png; sourceTree = "<group>"; };
+		7F4BF7632079A12A00A430AE /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		7F8E19B22078ECFB00DFE64B /* Connectr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Connectr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8E19B52078ECFB00DFE64B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F8E19B72078ECFB00DFE64B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F8E19BA2078ECFB00DFE64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F8E19BC2078ECFC00DFE64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8E19BF2078ECFC00DFE64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8E19C12078ECFC00DFE64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8E19C72078EF5F00DFE64B /* Connectr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Connectr.entitlements; sourceTree = "<group>"; };
+		7FB8FEAD2079C539000814D3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7FB8FEAF2079CB62000814D3 /* profile_placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile_placeholder.png; sourceTree = "<group>"; };
+		7FB8FEB12079D2B6000814D3 /* ContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewController.swift; sourceTree = "<group>"; };
+		8EFE71CB625B3F04B37B06F3 /* Pods-Connectr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connectr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Connectr/Pods-Connectr.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8E19AF2078ECFB00DFE64B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4BF7642079A12A00A430AE /* SafariServices.framework in Frameworks */,
+				966E471091426EE468FE6D4F /* Pods_Connectr.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1346DBC494A1ADB2C3F22B18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F4BF7632079A12A00A430AE /* SafariServices.framework */,
+				2BC63095D88E81A9CD324136 /* Pods_Connectr.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A4A24A37AF20EE95FD5F2DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				046DDC31037904B56DD9101F /* Pods-Connectr.debug.xcconfig */,
+				8EFE71CB625B3F04B37B06F3 /* Pods-Connectr.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7F4BF7462079632D00A430AE /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				7F4BF7472079632D00A430AE /* Plus.png */,
+				7F4BF7482079632D00A430AE /* Twitter.png */,
+				7F4BF7492079632D00A430AE /* Facebook.png */,
+				7F4BF74A2079632D00A430AE /* Snapchat.png */,
+				7F4BF75F2079982800A430AE /* Facebookdis.png */,
+				7F4BF75D2079982800A430AE /* Snapchatdis.png */,
+				7F4BF75E2079982800A430AE /* Twitterdis.png */,
+				7FB8FEAF2079CB62000814D3 /* profile_placeholder.png */,
+			);
+			path = assets;
+			sourceTree = SOURCE_ROOT;
+		};
+		7F8E19A92078ECFB00DFE64B = {
+			isa = PBXGroup;
+			children = (
+				7F8E19B42078ECFB00DFE64B /* Connectr */,
+				7F8E19B32078ECFB00DFE64B /* Products */,
+				5A4A24A37AF20EE95FD5F2DD /* Pods */,
+				1346DBC494A1ADB2C3F22B18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8E19B32078ECFB00DFE64B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E19B22078ECFB00DFE64B /* Connectr.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8E19B42078ECFB00DFE64B /* Connectr */ = {
+			isa = PBXGroup;
+			children = (
+				7F8E19C72078EF5F00DFE64B /* Connectr.entitlements */,
+				7F8E19B52078ECFB00DFE64B /* AppDelegate.swift */,
+				7F8E19B72078ECFB00DFE64B /* ViewController.swift */,
+				7F8E19B92078ECFB00DFE64B /* Main.storyboard */,
+				7F8E19BC2078ECFC00DFE64B /* Assets.xcassets */,
+				7F8E19BE2078ECFC00DFE64B /* LaunchScreen.storyboard */,
+				7F8E19C12078ECFC00DFE64B /* Info.plist */,
+				7FB8FEAD2079C539000814D3 /* ProfileViewController.swift */,
+				7F4BF7462079632D00A430AE /* assets */,
+				7FB8FEB12079D2B6000814D3 /* ContactViewController.swift */,
+			);
+			path = Connectr;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F8E19B12078ECFB00DFE64B /* Connectr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8E19C42078ECFC00DFE64B /* Build configuration list for PBXNativeTarget "Connectr" */;
+			buildPhases = (
+				598ECDA38BCB42C9204F926C /* [CP] Check Pods Manifest.lock */,
+				7F8E19AE2078ECFB00DFE64B /* Sources */,
+				7F8E19AF2078ECFB00DFE64B /* Frameworks */,
+				7F8E19B02078ECFB00DFE64B /* Resources */,
+				9312CD3275EC343FA6CABA2A /* [CP] Embed Pods Frameworks */,
+				64C1D44897DF9C2A9C099A63 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Connectr;
+			productName = Connectr;
+			productReference = 7F8E19B22078ECFB00DFE64B /* Connectr.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8E19AA2078ECFB00DFE64B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				TargetAttributes = {
+					7F8E19B12078ECFB00DFE64B = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 7F8E19AD2078ECFB00DFE64B /* Build configuration list for PBXProject "Connectr" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F8E19A92078ECFB00DFE64B;
+			productRefGroup = 7F8E19B32078ECFB00DFE64B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F8E19B12078ECFB00DFE64B /* Connectr */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8E19B02078ECFB00DFE64B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8E19C02078ECFC00DFE64B /* LaunchScreen.storyboard in Resources */,
+				7F8E19BD2078ECFC00DFE64B /* Assets.xcassets in Resources */,
+				7F8E19BB2078ECFB00DFE64B /* Main.storyboard in Resources */,
+				7F4BF7612079982800A430AE /* Twitterdis.png in Resources */,
+				7F4BF7622079982800A430AE /* Facebookdis.png in Resources */,
+				7F4BF74D2079632D00A430AE /* Facebook.png in Resources */,
+				7F4BF7602079982800A430AE /* Snapchatdis.png in Resources */,
+				7F4BF74C2079632D00A430AE /* Twitter.png in Resources */,
+				7F4BF74B2079632D00A430AE /* Plus.png in Resources */,
+				7FB8FEB02079CB62000814D3 /* profile_placeholder.png in Resources */,
+				7F4BF74E2079632D00A430AE /* Snapchat.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		598ECDA38BCB42C9204F926C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Connectr-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64C1D44897DF9C2A9C099A63 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Connectr/Pods-Connectr-resources.sh",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterKitResources.bundle",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework/TwitterShareExtensionUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connectr/Pods-Connectr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9312CD3275EC343FA6CABA2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Connectr/Pods-Connectr-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookCore/FacebookCore.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookLogin/FacebookLogin.framework",
+				"${BUILT_PRODUCTS_DIR}/FacebookShare/FacebookShare.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftInstagram/SwiftInstagram.framework",
+				"${PODS_ROOT}/TwitterCore/iOS/TwitterCore.framework",
+				"${PODS_ROOT}/TwitterKit/iOS/TwitterKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookLogin.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FacebookShare.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftInstagram.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TwitterKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Connectr/Pods-Connectr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8E19AE2078ECFB00DFE64B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB8FEAE2079C539000814D3 /* ProfileViewController.swift in Sources */,
+				7FB8FEB22079D2B6000814D3 /* ContactViewController.swift in Sources */,
+				7F8E19B82078ECFB00DFE64B /* ViewController.swift in Sources */,
+				7F8E19B62078ECFB00DFE64B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F8E19B92078ECFB00DFE64B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8E19BA2078ECFB00DFE64B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8E19BE2078ECFC00DFE64B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8E19BF2078ECFC00DFE64B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F8E19C22078ECFC00DFE64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F8E19C32078ECFC00DFE64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F8E19C52078ECFC00DFE64B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 046DDC31037904B56DD9101F /* Pods-Connectr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Connectr/Connectr.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RWM4KKTTY5;
+				INFOPLIST_FILE = Connectr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = connectr.Connectr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7F8E19C62078ECFC00DFE64B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EFE71CB625B3F04B37B06F3 /* Pods-Connectr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Connectr/Connectr.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RWM4KKTTY5;
+				INFOPLIST_FILE = Connectr/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = connectr.Connectr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F8E19AD2078ECFB00DFE64B /* Build configuration list for PBXProject "Connectr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8E19C22078ECFC00DFE64B /* Debug */,
+				7F8E19C32078ECFC00DFE64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8E19C42078ECFC00DFE64B /* Build configuration list for PBXNativeTarget "Connectr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8E19C52078ECFC00DFE64B /* Debug */,
+				7F8E19C62078ECFC00DFE64B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F8E19AA2078ECFB00DFE64B /* Project object */;
+}
